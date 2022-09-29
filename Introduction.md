@@ -16,7 +16,7 @@ Voir syllabus pour les détails
 - **Entreprise** : Une entreprise est une organisation économique qui a pour vocation de produire des biens et des services déstinés à la consommation. Elle a pour objectif la maximalisation du profit càd qu'elle doit vendre ses produits à un prix supérieur à ses coups de production. Le monde des entreprises est très vaste, aux deux extrémités nous avons l'entreprise artisanale travaillant à l'échelle d'un quartier et la multinationale implanté dans plusieurs pays. Qqsoit leur taille, leur secteur d'activité, leur statut juridique, leur méthode de production on peut dégager les mêmes constantes dans la réalité de leur fonctionnement (restera la meme?). L'entreprise s'entoure et réunis diff partenaires : les partenaires internes (salariés) et les partenaires externes (le reste). Organiser, elle doit assurer la coordination éfficace des élements qui la composent elle a aussi des responsabilités particulières vis à vis de l'environnement dans lequelle elle évolue.
 
 On peux tout d'abord classer les entreprises en fonction de leurs tailles :
-- Micro-entreprise ou TPE : de 0 à 9 salariés
+- Micro-entreprise ou TPE : de 0 à 9 salariés (car gérant/entrepreneur pas compté dans l'effectif)???
 - Petite entreprise : 10 à 49 salariés
 - Moyenne entreprise : 50 à 249 salariés
 - ETI (Entreprise de Taille Intermédiaire) : 250 à 4999 salariés CA < 1,5 milliards
@@ -36,12 +36,12 @@ On peux aussi classer les entreprises selon leur statut juridique :
 
 Les entreprises peuvent également se différencier suivant l'origine de leur capitaux :
 - Entreprise publique : EDF 83%, ADP 50,3% , Renault 15%, Airbus 11%, Air France KLM 14% France télévision, RATP et SNCF 100%
-- Entreprise privée
+- Entreprise privée : ???
 
 On peux également classer les entreprises selon la taille de leur marché :
 - Localement :
-- Profession libérales : Avocat, infirmer, médecin
-- Structure nationale ou internationale
+- Profession libérales : Une profession libéral désigne toute profession exercée sur la base de qualifications appropriées, à titre personnel, sous sa propre responsabilité, de façon professionnellement indépendante et qui répond à un intérêt général.
+- Structure nationale ou internationale ?????????????????
 - Société pure-player : Société qui travaille seulement par internet (Amazon)
 
 **- Artisan** : Transforme une matière première via son savoir-faire en produit.
@@ -53,8 +53,8 @@ On peux également classer les entreprises selon la taille de leur marché :
 - Pyramide de Peter : Le fait que chaque individu va atteindre son seuil d’incompétence dans un domaine.
 - Code NAF : Activité principale exercée (4 Chiffres et 1 Lettre)
 - Taille d'une entreprise : Effectif de l'entreprise
-- Secteur d'activité : 
-- Statut d’Entreprise/ juridiques : Détermine le chemin/les règles que va prendre l’entreprise
+- Secteur d'activité : l'activité principale de l'entreprise
+- Statut d’Entreprise/juridiques : Détermine le chemin/les règles que va prendre l’entreprise (SARL, SA, SAS, etc)
 - Méthode de production : la façon dont  on fabrique le produit
 - Directeur des Ressources Humaines (DRH) : S’occupe de tout le social, ce qui touche l’humain → maladie, recrutement…
 - Ressources Humaines :
