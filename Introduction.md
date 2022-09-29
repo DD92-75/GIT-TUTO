@@ -1,6 +1,5 @@
 **Notes:**\
 Se renseigner sur SAS\
-Mr. FEDIDA 06.07.26.97.70
 - CC1 : 30 septembre
 - CC2 : 6 octobre
 - Soutenance : 20 octobre\
@@ -56,7 +55,7 @@ On peux également classer les entreprises selon la taille de leur marché :
 - Taille d'une entreprise :
 - Secteur d'activité :
 - Statut d’Entreprise/ juridiques : Détermine le chemin/les règles que va prendre l’entreprise
-- Méthode de production :
+- Méthode de production : la façon dont  on fabrique le produit
 - Directeur des Ressources Humaines (DRH) : S’occupe de tout le social, ce qui touche l’humain → maladie, recrutement…
 - Ressources Humaines :
 - Gérant minoritaire : 30/70
