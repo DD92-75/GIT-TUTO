@@ -39,7 +39,7 @@ Les entreprises peuvent également se différencier suivant l'origine de leur ca
 - Entreprise privée : ???
 
 On peux également classer les entreprises selon la taille de leur marché :
-- Localement :
+- Locale : Commerçant ?????
 - Profession libérales : Une profession libéral désigne toute profession exercée sur la base de qualifications appropriées, à titre personnel, sous sa propre responsabilité, de façon professionnellement indépendante et qui répond à un intérêt général.
 - Structure nationale ou internationale ?????????????????
 - Société pure-player : Société qui travaille seulement par internet (Amazon)
@@ -55,7 +55,7 @@ On peux également classer les entreprises selon la taille de leur marché :
 - Taille d'une entreprise : Effectif de l'entreprise
 - Secteur d'activité : l'activité principale de l'entreprise
 - Statut d’Entreprise/juridiques : Détermine le chemin/les règles que va prendre l’entreprise (SARL, SA, SAS, etc)
-- Méthode de production : la façon dont  on fabrique le produit
+- Méthode de production : la façon dont on fabrique le produit
 - Directeur des Ressources Humaines (DRH) : S’occupe de tout le social, ce qui touche l’humain → maladie, recrutement…
 - Ressources Humaines :
 
