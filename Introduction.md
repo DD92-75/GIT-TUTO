@@ -1,6 +1,5 @@
 **Notes:**\
 Se renseigner sur SAS\
-Mr. FEDIDA 06.07.26.97.70
 - CC1 : 30 septembre
 - CC2 : 6 octobre
 - Soutenance : 20 octobre\
