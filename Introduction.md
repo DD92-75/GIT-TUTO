@@ -41,10 +41,11 @@ On peux également classer les entreprises selon la taille de leur marché :
 
 **- Artisan** : Transforme une matière première via son savoir-faire en produit.
 
-- Chiffre d'affaire :
-- Bénéfice :
-- Marge :
-- Mulltinationale :
+- Chiffre d'affaire (CA) : La totalité des revenues des ventes, c’est l’argent qui rentre
+- Bénéfice : Ce qui reste à la fin à la suite des charges, taxes…
+- Marge : La différence entre le prix de vente et le prix d'achat de biens ou de services
+- Mulltinationale : Grand groupe qui travaille sur plusieurs pays. Quelles que soient leurs tailles, leurs secteurs d’activités (cf. : code NAF), leurs statuts juridiques, leurs méthodes de production, on peut dégager les mêmes constantes dans la réalité de leur fonctionnement.
+- Pyramide de Peter : Le fait que chaque individu va atteindre son seuil d’incompétence dans un domaine.
 - Taille d'une entreprise :
 - Secteur d'activité :
 - Statut juridique :
