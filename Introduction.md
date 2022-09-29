@@ -52,17 +52,29 @@ On peux également classer les entreprises selon la taille de leur marché :
 - Mulltinationale : Grand groupe qui travaille sur plusieurs pays. Quelles que soient leurs tailles, leurs secteurs d’activités (cf. : code NAF), leurs statuts juridiques, leurs méthodes de production, on peut dégager les mêmes constantes dans la réalité de leur fonctionnement.
 - Pyramide de Peter : Le fait que chaque individu va atteindre son seuil d’incompétence dans un domaine.
 - Code NAF : Activité principale exercée (4 Chiffres et 1 Lettre)
-- Taille d'une entreprise :
-- Secteur d'activité :
+- Taille d'une entreprise : Effectif de l'entreprise
+- Secteur d'activité : 
 - Statut d’Entreprise/ juridiques : Détermine le chemin/les règles que va prendre l’entreprise
 - Méthode de production : la façon dont  on fabrique le produit
 - Directeur des Ressources Humaines (DRH) : S’occupe de tout le social, ce qui touche l’humain → maladie, recrutement…
 - Ressources Humaines :
-- Gérant minoritaire : 30/70
-- Gérant majoritaire : 70/30
-- Gérant non associé : 0%
-- Gérant égalitaire : 50%
 
+````mermaid
+pie title Minoritaire
+    "Gérant 1" : 30
+    "Gérant 2" : 70
+````
+
+````mermaid
+pie title Majoritaire
+    "Gérant 1" : 70
+    "Gérant 2" : 30
+````
+
+````mermaid
+pie title Non associé
+    "Gérant 1" : 0
+````
 
 ````mermaid
 pie title Egalitaire
