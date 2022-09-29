@@ -26,18 +26,19 @@ On peux tout d'abord classer les entreprises en fonction de leurs tailles :
 
 On peux aussi classer les entreprises selon leur statut juridique :
 - Société individuelle ou SARL : capitale 1 personne
-- SAS : 2 associés
-- SASU : SAS associé unique?
+- SAS (Société par Actions Simplifiée): 2 associés
+- SASU (Société par Actions Simplifiée Unique) : SAS a associé unique
+- SA (Société Anonyme)
 
 Les entreprises peuvent également se différencier suivant l'origine de leur capitaux :
-- Entreprise publique
+- Entreprise publique : EDF 83%, ADP 50,3% , Renault 15%, Airbus 11%, Air France KLM 14% France télévision, RATP et SNCF 100%
 - Entreprise privée
 
 On peux également classer les entreprises selon la taille de leur marché :
 - Localement :
-- Profession libérales
-- Structure nationale ou iinternationale
-- Société pure-player
+- Profession libérales : Avocat, infirmer, médecin
+- Structure nationale ou internationale
+- Société pure-player : Société qui travaille seulement par internet (Amazon)
 
 **- Artisan** : Transforme une matière première via son savoir-faire en produit.
 
@@ -46,10 +47,12 @@ On peux également classer les entreprises selon la taille de leur marché :
 - Marge : La différence entre le prix de vente et le prix d'achat de biens ou de services
 - Mulltinationale : Grand groupe qui travaille sur plusieurs pays. Quelles que soient leurs tailles, leurs secteurs d’activités (cf. : code NAF), leurs statuts juridiques, leurs méthodes de production, on peut dégager les mêmes constantes dans la réalité de leur fonctionnement.
 - Pyramide de Peter : Le fait que chaque individu va atteindre son seuil d’incompétence dans un domaine.
+- Code NAF : Activité principale exercée (4 Chiffres et 1 Lettre)
 - Taille d'une entreprise :
 - Secteur d'activité :
-- Statut juridique :
+- Statut d’Entreprise/ juridiques : Détermine le chemin/les règles que va prendre l’entreprise
 - Méthode de production :
+- Directeur des Ressources Humaines (DRH) : S’occupe de tout le social, ce qui touche l’humain → maladie, recrutement…
 - Ressources Humaines :
 - Gérant minoritaire : 30/70
 - Gérant majoritaire : 70/30
