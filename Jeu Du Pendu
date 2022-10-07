@@ -1,0 +1,160 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>   // On appele fonction gtch
+#include<ctype.h>  // On appele fonction Toupper
+
+#include"Pendu.h"
+#define P() printf("Pour reussir a deveniner le mot cachee vous avez le droit a ");
+
+const int taille = 8 ;  //La taille du mot cachee
+//---------------------------------------------------------------------------------------------------------------------
+
+//Fonction 1
+int Niveau ()
+{
+   int Chance, choix;
+
+   printf("\nAvant de jouer choisissez le niveau de difficultee\n\n");
+   printf("Niveau 1: \n");
+   printf("Niveau 2: \n");
+   printf("Niveau 3: \n\n");
+   scanf("%d", &choix);
+
+   switch (choix)
+   {
+   case 1:
+    Chance = 10;
+    P() printf("%d chances\n",Chance);
+    break;
+   case 2:
+    Chance = 5;
+    P() printf("%d chances\n",Chance);
+    break;
+   case 3:
+    Chance = 3;
+    P() printf("%d chances\n",Chance);
+    break;
+   default:
+    printf("\nVeuillez saisir un niveau parmi les suivants 1. 2. 3. ou 4.\n");
+    break;
+   }
+   return Chance;
+}
+
+// Fonction 2
+char MotCachee(char* Cachee)
+{
+   printf("\nInscrivez votre mot en Majuscule composee de %d\n", taille);
+   int i ;
+   for( i = 0 ; i <= taille ; i++){
+    Cachee[i] = getch() ;
+   }
+   while(getchar() != '\n');
+}
+
+//---------------------------------------------------------------------------------------------------------------------
+
+int main()
+{
+    // Declaration des variables
+    char Cachee[taille+1]         ;  //Le mot cachee à retrouver
+    char Tentative =0             ;  //Les tentatives du Joueurs
+
+    int Chance=5                  ;  //Le nombre de chance du Joueurs
+    int i =0                      ;
+    int LettreTrouvee[8] = {0}    ;  //Le tableau d'entiers qui parcours le mot cachee
+
+
+    printf("-----{{{BIENVENUE DANS LE JEU DU PENDU}}}-----\n\n");
+    printf("Ce jeu se joue a 2 joueurs \nle joueur (1) tape le mot cachee et\n");
+    printf("le joueur (2) le devine ");
+
+    Chance = Niveau(); // Fonction qui determine le niveau du jeu (Dorian)
+
+    printf("Joueur 1 inscrivez 8 caracteres dans votre mot\n");
+
+    MotCachee(Cachee); // Fonction qui cache le mot saisie par Joueurs 1 (Dorian)
+
+
+    // Boucle principal du jeu
+    while(Chance > 0 && Victoire(LettreTrouvee) ==  0){ //on continue à jouer tant qu'on a encore des chances ,
+                                                        //ou qu'on a pas encore gagnee
+    printf("Il vous reste %d coups a jouer\n",Chance);
+    printf("Quel est le mot secret ?\n");
+
+    for(i = 0 ; i<taille ; i++){
+            if(LettreTrouvee[i])
+            {
+            printf("%c",Cachee[i]);
+            }
+            else
+            {
+            printf("*");
+            }
+        }
+
+        printf("\nProposez une lettre\n");
+        Tentative = SaisirTentative();
+        if(RechercheCachee(LettreTrouvee , Cachee , Tentative)== 0) // Foction qui renvoie 2 informations
+        {
+            Chance -- ;
+        }
+    } // Fin de la boucle principal
+
+    if(Victoire(LettreTrouvee) ==  1)
+    {
+        printf("Victoire , le mot cachee etait bien %s",Cachee);
+        system("start C:\\Users\\Dorian\\Dropbox\\Documents\\Code_Blocks\\test_SDL\\bin\\Debug\\test_SDL");
+    }
+
+    else
+    {
+        printf("Defaite , le mot cachee etait %s ",Cachee);
+        system("start G:\\CodeBlocks\\ImagePendu\\bin\\Debug\\SDL");
+    }
+    return 0;
+}
+
+// Fonction 3
+char SaisirTentative()
+{
+    char Lettre = getchar();
+    Lettre = toupper(Lettre);  //On transforme la lettre en Majuscule
+
+    while(getchar() != '\n');
+    return Lettre ;
+}
+
+
+// Fonction 4
+int Victoire(int LettreTrouvee[])
+{
+   int i = 0 ;
+   int gagnee = 1 ;
+
+   for(i = 0 ; i<taille ; i++){
+       if(LettreTrouvee[i]== 0)    // Si le tableau d'entiers vaut 0 alors on a pas encore gagnee
+       {
+          gagnee = 0 ;
+       }
+    }
+    return gagnee ;
+}
+
+// Fonction 5
+int RechercheCachee(int LettreTrouvee[] , char Cachee[] , char Tentative)
+{
+    int i = 0   ;
+    int Vie = 0 ;
+
+    for(i = 0 ; Cachee[i] != '\0' ; i++){   // On supprime le carctere de fin de chaine
+
+        if(Tentative == Cachee[i])
+        {
+            LettreTrouvee[i] = 1 ;
+            Vie = 1 ;
+        }
+
+    }
+    return Vie ;
+}
